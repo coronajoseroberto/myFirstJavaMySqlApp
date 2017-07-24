@@ -401,7 +401,7 @@ insertData("NOMBRES", qr.getText(), noparte.getText(), oracle.getText() , provee
     private javax.swing.JTextField proveedor;
     private javax.swing.JTextField qr;
     // End of variables declaration//GEN-END:variables
-
+// DFDFDFDFDF
 public void closeConnection() {
         try {
             Conexion.close();
@@ -409,6 +409,7 @@ public void closeConnection() {
         } catch (SQLException ex) {
             Logger.getLogger(GUI.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
     }    
 public void MySQLConnection(String user, String pass, String db_name) throws Exception {
         try {
